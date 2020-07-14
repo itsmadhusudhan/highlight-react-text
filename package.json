@@ -1,5 +1,5 @@
 {
-  "name": "react-text-highlighter",
+  "name": "highlight-react-text",
   "version": "1.0.0",
   "description": "A small React library to highlight text",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itsmadhusudhan/react-text-highlighter.git"
+    "url": "git+https://github.com/itsmadhusudhan/highlight-react-text.git"
   },
   "keywords": [
     "react",
@@ -21,9 +21,9 @@
   "author": "itsmadhusudhan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/itsmadhusudhan/react-text-highlighter/issues"
+    "url": "https://github.com/itsmadhusudhan/highlight-react-text/issues"
   },
-  "homepage": "https://github.com/itsmadhusudhan/react-text-highlighter#readme",
+  "homepage": "https://github.com/itsmadhusudhan/highlight-react-text#readme",
   "peerDependencies": {
     "react": ">=16.8.0"
   },
