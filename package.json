@@ -1,0 +1,41 @@
+{
+  "name": "react-text-highlighter",
+  "version": "1.0.0",
+  "description": "A small React library to highlight text",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmadhusudhan/react-text-highlighter.git"
+  },
+  "keywords": [
+    "react",
+    "text-highlight"
+  ],
+  "author": "Madhusudhan R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsmadhusudhan/react-text-highlighter/issues"
+  },
+  "homepage": "https://github.com/itsmadhusudhan/react-text-highlighter#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "dependencies": {
+    "@types/react": "*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "rollup": "^2.21.0",
+    "rollup-plugin-peer-deps-external": "^2.2.3",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.6"
+  }
+}
