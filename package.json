@@ -4,7 +4,6 @@
   "description": "A small React library to highlight text",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
-  "private": "false",
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1",
