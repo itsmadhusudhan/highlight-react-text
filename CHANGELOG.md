@@ -2,7 +2,7 @@
 
 **Enhancements:**
 
-- Intial Release
+- Initial Release
 
 - Added the highlighter components and custom highlighter react hooks.
 
