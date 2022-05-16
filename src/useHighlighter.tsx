@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import { getHighlights, createRegexText } from "./utils";
 
 export type HighlightProps = {
@@ -12,9 +13,14 @@ const useHighlighter = ({
   ignoreCase = true,
 }: HighlightProps) => {
   // join the search text array and make regex search text
-  const regexText = createRegexText(searchText);
+  const regexText = useMemo(() => createRegexText(searchText), [searchText]);
 
-  return { highlights: getHighlights(regexText, text, ignoreCase) };
+  const highlights = useMemo(
+    () => getHighlights(regexText, text, ignoreCase),
+    [regexText, text, ignoreCase]
+  );
+
+  return { highlights };
 };
 
 export default useHighlighter;

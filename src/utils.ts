@@ -39,7 +39,7 @@ export const getHighlights = (
 
     const length = m[0].length;
 
-    const highlight = text.substr(index, length);
+    const highlight = text.substring(index, length + index);
 
     const suffix = text.substring(index + length);
 
